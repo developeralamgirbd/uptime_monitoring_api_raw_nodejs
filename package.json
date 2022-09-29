@@ -1,0 +1,17 @@
+{
+  "name": "Uptime_Monitoring_API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "set NODE_ENV=staging && nodemon index",
+    "prod": "set NODE_ENV=production && nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
