@@ -39,7 +39,7 @@ app.createServer = ()=>{
     const server = http.createServer(app.handleReqRes);
 
     server.listen(environment.port, ()=>{
-        console.log(`Server listening success on this port ${environment.port}`)
+        console.log(`Server port is ${environment.port}`)
     });
 };
 
